@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(to bottom right , #ffffff, #75a0fc);
+  }
+  .titulo {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000;
+    padding-bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+
+
+.tabla-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .celda {
+    background-color: #fff;
+
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(7, 1, 1, 0.532);
+    transition: box-shadow 0.7s ease;
+  }
+  
+  .celda:hover {
+    box-shadow: 0 7px 18px#452244;
+  }
+  
+  .celda img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 150px;
+    border-radius: 8px;
+  }
+  
+  
+  
+  .calificacion {
+    font-weight: bold;
+    color: #ee8b01;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+  }
+  
+  .comparar-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5427a3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comparar-button:hover {
+    background-color: rgb(31, 26, 84);
+  }
+  
+  
+  .eliminar-form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .eliminar {
+    background-color: #ff4545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .eliminar:hover {
+    background-color: #e63b3b;
+  }
+  
+  .button-create {
+    background-color: #222222;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-create:hover {
+    background-color: #111111c4;
+  }
+  
